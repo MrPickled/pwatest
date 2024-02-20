@@ -4,7 +4,7 @@ const addBtn = document.querySelector('.add-button');
 addBtn.style.display = 'none';
 
 // 规定必须注册 serviceWorker 才能使用 Add to Home Screen，
-// 且需要监听 install 和 fetch 事件，可以不处理
+// 我们可以设置一个空的 serviceWorker
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
            .register('./sw2.js')
