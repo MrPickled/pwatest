@@ -7,7 +7,7 @@ addBtn.style.display = 'none';
 // 且需要监听 install 和 fetch 事件，可以不处理
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('./sw.js')
+           .register('./sw2.js')
            .then(function() { console.log('Service Worker Registered'); });
 }
 
