@@ -10,5 +10,5 @@
   ],
   "name": "Test",
   "short_name": "快",
-  "start_url": "."
+  "start_url": "/pwatest1/index.html"
 }
